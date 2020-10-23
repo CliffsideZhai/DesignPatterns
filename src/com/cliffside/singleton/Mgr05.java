@@ -6,6 +6,7 @@ package com.cliffside.singleton;
  * 也是线程不安全的
  */
 public class Mgr05 {
+
     private static Mgr05 INSTANCE;
 
     private Mgr05(){ }

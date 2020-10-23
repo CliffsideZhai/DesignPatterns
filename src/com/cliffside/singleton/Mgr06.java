@@ -5,7 +5,9 @@ package com.cliffside.singleton;
  * 双重检查实现线程安全
  */
 public class Mgr06 {
-    private static Mgr06 INSTANCE;
+
+    //不加volatile，会导致指令重排
+    private static volatile Mgr06 INSTANCE;
 
     private Mgr06(){ }
 

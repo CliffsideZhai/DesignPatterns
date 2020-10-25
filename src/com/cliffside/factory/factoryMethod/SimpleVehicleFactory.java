@@ -1,4 +1,4 @@
-package com.cliffside.factory;
+package com.cliffside.factory.factoryMethod;
 
 /**
  * 简单工厂

@@ -1,4 +1,4 @@
-package com.cliffside.factory;
+package com.cliffside.factory.factoryMethod;
 
 //这个工厂应该是单例的
 public class CarFactory {

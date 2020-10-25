@@ -10,10 +10,20 @@ package com.cliffside.factory;
  * 权限、修饰、日志
  *
  * @author windo
+ *
+ *
+ * 任意定制交通工具：继承moveable接口即可
+ * 任意定义生产过程，实现各种VchicleFactory既可
  */
 public class mian {
     public static void main(String[] args) {
         Car car = new Car();
         car.go();
+
+        Moveable moveable = new Car();
+        moveable.go();
+
+        Moveable m = CarFactory.getInstance().createCar();
+        m.go();
     }
 }
